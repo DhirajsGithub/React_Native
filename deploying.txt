@@ -1,0 +1,27 @@
+deploy your app to expo as first install expo cli 
+$ sudo npm install -g expo-cli
+create an account on expo
+then 
+$expo login
+then
+$ expo publish
+you app will be visible on expo site
+
+
+
+building the aab version of your app with eas build 
+.aab versio is used to deply on google play
+https://docs.expo.dev/build/setup/
+make sure you are in home directory
+$ sudo npm install -g eas-cli
+$ eas login
+with your expo credentials
+$ eas build:configure
+$ eas build --platform android
+or 
+$ eas build --platform all
+
+it will generate .aab version of your app which is supported in play store 
+
+building the apk version of your app
+https://docs.expo.dev/build-reference/apk/

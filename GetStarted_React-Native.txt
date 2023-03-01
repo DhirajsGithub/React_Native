@@ -1,0 +1,99 @@
+Expo : platform for making universal native apps for android, iOS and the web with javascript and react
+Installing expo cli : $ npm i -g expo-cli or put sudo before installing
+Installing the starter project : 
+$ npx create-expo-app deliveroo
+
+------------------------------------------------------------------------
+tailwind css in react-native : 
+https://www.nativewind.dev/quick-starts/react-native-cli
+
+$ npm install nativewind
+$ npm install --dev tailwindcss
+
+create a file called "tailwind.config.js"
+and add below module in it
+module.exports = {
+ content: ["./App.{js,jsx,ts,tsx}", "./<custom-folder>/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+NOTE : replace <custom-folder> with Pages/Components/Screen, or whatever folders contain the .js files
+
+add the below plugins to babel file 
+plugins: ["nativewind/babel"],
+
+have the tailwind css intellisense extension
+
+restart the server
+
+------------------------------------------------------------------------
+
+React native navigation : 
+https://reactnavigation.org/docs/getting-started
+
+$ npm install @react-navigation/native
+$ npx expo install react-native-screens react-native-safe-area-context
+
+wrap the entire app with navigation container 
+$ npm install @react-navigation/native-stack
+
+const Stack = createNativeStackNavigator();     // obviously need to import
+wrap navigation pages as <Stack.Navigator></Stack.Navigator>
+
+------------------------------------------------------------------------
+Icons : 
+react native hero icons
+$ npm i react-native-heroicons
+$ npm i react-native-heroicons react-native-svg
+$ npm install react-native-svg-transformer --save 
+$ npm i react-native-svg
+$ npx expo install react-native-svg
+
+------------------------------------------------------------------------
+
+Redux tool kit 
+Redux --> global state management technique
+$ npm install @reduxjs/toolkit react-redux
+https://redux-toolkit.js.org/tutorials/quick-start
+
+without cretating a store if we wrap app.js with Provider it will show error
+
+------------------------------------------------------------------------
+React-native animation 
+https://github.com/oblador/react-native-animatable
+$ npm install react-native-animatable --save
+
+React-native Progress 
+https://www.npmjs.com/package/react-native-progress
+$ npm i react-native-progress
+
+------------------------------------------------------------------------
+react-native maps
+won't work for web
+$ npx expo install react-native-maps
+
+------------------------------------------------------------------------
+safe area view from react-native only works on ios but this context will work on all devices
+$ npm i react-native-safe-area-context
+<SafeAreaProvider>...</SafeAreaProvider>;
+
+
+all-in-one UI kit for creating apps in react native
+https://reactnativeelements.com/docs
+
+$ npm install @rneui/themed @rneui/base
+
+$ npm install react-native-elements/react-native-elements#base
+$ npm install react-native-elements/react-native-elements#themed
+
+$ npm install react-native-vector-icons
+
+$ npm install react-native-safe-area-context
+
+------------------------------------------------------------------------
+
+
+

@@ -1,8 +1,12 @@
 # How to access the app
 $ git clone https://github.com/DhirajsGithub/React_Native.git
+
 $ cd React_Native/TodoApp
+
 $ npm install
+
 $ npm start
+
 $ scan the QR code with the "expo" app available at playstore and app store
 
 # Diving into the core concepts

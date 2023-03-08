@@ -50,5 +50,11 @@ $ scan QR code usig "Expo Go" app
 
 Written in javascript, Based on CSS syntax, but only a subset of properties and features is supported
 
+## Debugin React Native App
+* take a hint through key names and searching them in your file
+* Logging to console 
+* Using React devtoops $ sudo npm install -g react-devtools, start the devtool as $ npx react-devtools
+ 
+
 
 # Each folder will now contain Learned.md file where you can access what you will learned in that directory

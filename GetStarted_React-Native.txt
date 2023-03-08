@@ -20,7 +20,7 @@ module.exports = {
   plugins: [],
 }
 
-NOTE : replace <custom-folder> with Pages/Components/Screen, or whatever folders contain the .js files
+NOTE : replace <custom-folder> with Pages, Components, Screen, or whatever folders contain the .js files
 
 add the below plugins to babel file 
 plugins: ["nativewind/babel"],

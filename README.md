@@ -54,7 +54,27 @@ Written in javascript, Based on CSS syntax, but only a subset of properties and 
 * take a hint through key names and searching them in your file
 * Logging to console 
 * Using React devtoops $ sudo npm install -g react-devtools, start the devtool as $ npx react-devtools
- 
+
+## Navigation
+# Problem with Drawer Navigation 
+after installing all the steps : 
+https://reactnavigation.org/docs/drawer-navigator
+
+from here : 
+https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/installation/
+
+add babel pulgin as : 
+
+plugins: [
+      'react-native-reanimated/plugin',
+    ],
+
+$ expo start -c
+
+# State management with Redux and context API
+1. using context API we use createContext and useContext from react
+2. using redux : $ npm install @reduxjs/toolkit  $ npm install react-redux
+3. https://redux-toolkit.js.org/introduction/getting-started
 
 
 # Each folder will now contain Learned.md file where you can access what you will learned in that directory
